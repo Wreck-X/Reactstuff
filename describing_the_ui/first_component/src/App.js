@@ -1,23 +1,10 @@
-export default function Gallery() {
+import Gallery from "./Gallery"
+
+
+export default function App() {
   return (
     <>
-    <h1>Amazing Scientists</h1>
-      <Profile />
-      <Profile />
-      <Profile />
-      <Goodjob />
+    <Gallery />
     </>
-  )
-}
-function Goodjob() {
-  return <h1>Good job!</h1>
-}
-
-function Profile() {
-  return (
-    <img
-      src="https://i.imgur.com/MK3eW3Am.jpg"
-      alt="Katherine Johnson"
-    />
   )
 }
