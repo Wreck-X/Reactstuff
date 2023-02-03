@@ -1,0 +1,8 @@
+p {
+  border-style: dotted;
+}
+
+
+table, th, td {
+  border: 1px solid;
+}
